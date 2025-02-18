@@ -1,0 +1,63 @@
+/* User Card Container */
+.usercard {
+    max-width: 320px;
+    background: rgba(50, 50, 50, 0.2); /* Dark Glassmorphic Effect */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .usercard:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 15px 40px yellow; /* Pink Glow */
+  }
+  
+  /* Profile Image */
+  .usercard__image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid black; /* Deep Pink Border */
+    box-shadow: 0 4px 8px white;
+    margin-bottom: 15px;
+  }
+  
+  /* Name Styling */
+  .usercard__name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(90deg, Gray, Gray); /* Purple to Pink */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Info Text (Email, Phone, Address) */
+  .usercard__info, .usercard__address {
+    font-size: 1rem;
+    color: #e0e0e0;
+    margin: 5px 0;
+  }
+  
+  /* Address Styling */
+  .usercard__address {
+    font-size: 0.9rem;
+    color: #bdbdbd;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  /* Dark Background Animation */
+  body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e); /* Dark Gray to Deep Blue */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
